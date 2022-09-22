@@ -1,0 +1,23 @@
+{
+  "name": "nuuka-crawler",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "tsc && node main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/henrihuuskonen/nuuka-crawler.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/henrihuuskonen/nuuka-crawler/issues"
+  },
+  "homepage": "https://github.com/henrihuuskonen/nuuka-crawler#readme",
+  "devDependencies": {
+    "node-fetch": "^3.2.10"
+  }
+}
