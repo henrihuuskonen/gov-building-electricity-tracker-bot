@@ -11,7 +11,7 @@ const getKwhByDayForProperty = async (propertyName, day, id) => {
         return makePropertyRequest(params).then(res => {
             return {
                 type: params.ReportingGroup,
-                value: parseFloat(res[0]?.value || 0).toFixed(2),
+                value: res[0]?.value || 0,
                 unit: res[0]?.unit || 'kWh'
             }
         })
