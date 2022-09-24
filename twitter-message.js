@@ -22,7 +22,7 @@ export const getTwitterMessageObject = (data = undefined) => {
 
     const date = sortedOrder[0].date
 
-    const formatReply = (title, json) => `${title}\n${json.data.map(y => {
+    const formatReply = (title, json) => `${title} (${json.date})\n${json.data.map(y => {
         return `${getTranslation(y.type)}: ${y.value}(${y.unit})`
     }).join("\n")}
 Yhteensä: ${json.totalKwh}(kWh)`
