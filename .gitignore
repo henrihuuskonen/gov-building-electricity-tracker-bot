@@ -3,3 +3,4 @@ sorted desc - report.json
 top 10 - report.json
 node_modules
 .idea
+.env
