@@ -22,7 +22,6 @@ const runProd = async () => {
 const runDev = async () => {
     /* Parse and form string we want to post to twitter */
     const messageObj = getTwitterMessageObject()
-    await tweetAndReplyMessageObject(messageObj)
 
     console.log(messageObj)
 }
